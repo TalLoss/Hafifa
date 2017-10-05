@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Title</title>
+</head>
+<body>
+    <footer>
+        <nav class="nav">
+            <img src="icon.jpg" class="icon">
+            <button type="button" class="btn-nav-right">כפתור1</button>
+            <button type="button" class="btn-nav-right">כפתור2</button>
+            <button type="button" class="btn-nav-left">?</button>
+        </nav>
+    </footer>
+    <div class="main">
+        <button type="button" class="btn-main-left" onclick="closeMain()">&times;</button>
+        <h1 class="title">התחברות</h1>
+        <form class="form">
+            <label>שם משתמש:
+                <input type="text" class="input" id="username">
+            </label>
+        <label>סיסמא:
+           <input type="password" class="input" id="password">
+        </label>
+        </form>
+        <p class="info">
+                    השימוש שלך בשירותים מהווה הסכמה מצדך לתנאי שימוש אלה. נא קרא אותם בעיון.
+            השירותים שלנו מגוונים מאוד, ולכן במקרים מסוימים ייתכן שיחולו תנאים נוספים או דרישות מוצר נוספות (לרבות מגבלת גיל). תנאים והגבלות נוספים יופיעו יחד עם השירותים הרלוונטיים ויהפכו לחלק מההסכם שלך איתנו, אם תשתמש במוצרים הללו.
+        </p>
+        <button class="btn-login" onclick="checkInput()">התחבר</button>
+    </div>
+</body>
+</html>
